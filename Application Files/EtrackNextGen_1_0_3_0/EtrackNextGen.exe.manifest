@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="EtrackNextGen.exe" version="1.0.3.0" publicKeyToken="8dbd7b6651210ccd" language="en-US" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="EtrackLogoIcon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="EtrackNextGen" version="1.0.0.0" publicKeyToken="8DBD7B6651210CCD" language="neutral" processorArchitecture="msil" />
+    <commandLine file="EtrackNextGen.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EtrackNextGen.exe" size="766008">
+      <assemblyIdentity name="EtrackNextGen" version="1.0.0.0" publicKeyToken="8DBD7B6651210CCD" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>bPcHUsQgJ84JewheHVkEL1R6Dpp66r9oVX84ne+j6iw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="EtrackLogoIcon.ico" size="136486">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Rge6NqSeIaoh+lqDpt5iSA2J0oqL39cctl5hMTgYZGM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="EtrackLogoPng.png" size="120165">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2MHhe6eiNHnSLjGurvhyztW7eI5ZjXVDVTpr8+gx1SA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="EtrackNextGen.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Refresh.png" size="15666">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vtQ47c3cT+JYgPBGpBAXFO6xhBHag9MgnN31IACcjKY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RemoveButton.png" size="23157">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0YOmQ6NA+HAEjsyTwxEbo9xKVJRK76W5Iy7QqNZS2AE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=EtrackNG" issuerKeyHash="3c903409a512136876419848a33bdefbb4b2b727" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>q+Xl/uQm6xf0Pn2aUv8irhWKirU=</DigestValue></Reference></SignedInfo><SignatureValue>ED65jRU8vE9dAGkx7EepH3ncywQ0Bh8Ne2iHZGo16MRzIXNp4ha8CieCnv1FPSy6S6TEF1JMrlUBssVi/sTT79ZXZ35ptB1cVt0MfsxUIipC5xt+c8F3BupSgGGhkhrsiPdqswsw46kxSBZP3iMeQzfX8UbsRE9QoG4wGY3YnNIP6CwIzDa38qgDPFkX5dKifh+w4ggYpg5nXmdiL3AVdhPR+iXUvgS2ZOEjUZRI/2omfEZaMwYcpinaqG2aqp+iZ0rCO2JTScN5TBvgM/3NTrV1gPUcfVCAnqBd0unOhjTldQWHEeidDP3hdvRjN8pnzRBRdwv9+3XAYip3n8/mA+uu/vXHfV06Ce3nUSROKQPLVqmbZ3surMMZe2E9gj3lnCwU8XFHpE/fIwF25guea4ctunIsUX2N+qhR6+YvmnYqxtRDxsVaC2hHKHka/zaDKGTX1N/O/yWun9Jcxk+IE6HEDcf20IgpI+0V/sMvmhxi+FaTgEtuNFo1fBKk99qIK1ZutWmfV14jeM8ZXlql7Zp5vJgRZ+qrI8oX3qON2ksJbpKeLftP9sJnjJM9R93mdxNhhneTkkjdtnYl+nMKHkvbSPDVwsU9sF/JWKEJ1UDIujOtHtRgOnbqVa7KyN86cQA9yHjhMPqse09CPEFDdPjpW5GEzZBHX05Q/iC/D7M=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vxZdZtOPg7tHC3GkYF3L0sCtVNw/w31HB5VveSjjmMVj/mSihzbfX+oTUYbS1xaKdmnPy+d9jnf1wDK7i1dCy95pq0FC1KN9W3b197KelS/ql6iUCbNhpvduWBy4WJOP9XLzrfvr9qF6Vzrvo1GqdSQgezLRmdr6yIjyO5xyaNpJ3938tHnoZSQFECFmHuiF+UExcmhSHkmLBk62p6EB9MyB6wVZ6MwaXT4Epvv3KV9uo/XdGjz26+0VDeZr+kVksvt7GJo10sFfRrHfTRxVE/4TkHXXnuDmagCwEtnxDWACAub/Ipe1SvIjKjJdfgUN3Wk/JUrzCVFreTortyjEAU8DABMnhiEYiwWB4ZK6Vb33X3RJdfYtownkg1doy+tY5an+rkKD/x9tKy0pNB+HZkmXlz+53zxmWUoJit3HL4p3IfFR/6zyUCA838IzBVhuunOEyIc5SoJkUPpgS8WS05ZP1rJPBOMwN8MdtF1iHkJgXtZsXACcsyXYxwH83JfHWEoERIfhtKHsEZTVTRWetJBZt2nErJNodpmA4FiFosCoohRFfeWm2M1fEilJuoFltuSrANqTzF7lf3xbQA6KgETo43XbRJjqhKYiT7K1AaBErZ0edpaMZsGa0fE6nzQ7Xbff4Kb6sc49OB3Vv6P/RPzfMh5xQUgIQBljP7wHYBU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b58a8a15ae22ff529a7d3ef417eb26e4fee5e5ab" Description="" Url=""><as:assemblyIdentity name="EtrackNextGen.exe" version="1.0.3.0" publicKeyToken="8dbd7b6651210ccd" language="en-US" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=EtrackNG</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>r00fK4ZROhgfi3aEzeHfdP2VlsQ=</DigestValue></Reference></SignedInfo><SignatureValue>RnLpOOkyaoomYfdu5WezakXqcYiZLtUFRb/eV061qVigyW7630jMPI+yUnz7vjgYDVHnQ5QokGM8M4XxuETCXk8rMmS38UG9aNcvt7kzKWWR7XUcPJrKwSGAZRBkAw+0mBUJ3omJwBKhV5O+3Akqh8WTm1S9Z4Dz8GF6XtEdovmrosf6CWgq2sz2S+kOlZB/92QBRBnWeHKBfIL9Ql0u+OqVztgTsnmnnIzbS65bAiWBs7bz+F0VT7jg6KWcrhnyoRXPv3N/uXseu3JDeRFJRT87IXiSIFeDmcAqfWTJuERpz3jznrOmh7rhjt+nMHJEgYZRzODv/pnI56RtxxQ+W9pnNWSUCbtob87AKeaiPFFI+xQ2zZ6BQMKBP8PitnHdxq9DYqk1Pt34niOPKqbYkKNRab16IoQmslw0Ki7um0gXKLL/bTdbb09kZxRI9t7sDrNBXMiE+HkI4sVkq9PYkQuzJz3ER1fF3iAifez8d68T3FdHSogerSw8hxpFv4G+d9FGaO/lk+rklxEcWP8hoDmGalu0tiFrYf1jxheV+iCy0TkZTKOIZ7uyopvJGaml9ZrjNvq0Ac4eOM3lKOqZq+W1r5JCyyblhcKOkuwEeiadGDp5+VyapbZd5i7OZ66FfHnbeV6CHrRWtPHnrQ3NXpir7zxeCTJ4LLKoIRekGac=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vxZdZtOPg7tHC3GkYF3L0sCtVNw/w31HB5VveSjjmMVj/mSihzbfX+oTUYbS1xaKdmnPy+d9jnf1wDK7i1dCy95pq0FC1KN9W3b197KelS/ql6iUCbNhpvduWBy4WJOP9XLzrfvr9qF6Vzrvo1GqdSQgezLRmdr6yIjyO5xyaNpJ3938tHnoZSQFECFmHuiF+UExcmhSHkmLBk62p6EB9MyB6wVZ6MwaXT4Epvv3KV9uo/XdGjz26+0VDeZr+kVksvt7GJo10sFfRrHfTRxVE/4TkHXXnuDmagCwEtnxDWACAub/Ipe1SvIjKjJdfgUN3Wk/JUrzCVFreTortyjEAU8DABMnhiEYiwWB4ZK6Vb33X3RJdfYtownkg1doy+tY5an+rkKD/x9tKy0pNB+HZkmXlz+53zxmWUoJit3HL4p3IfFR/6zyUCA838IzBVhuunOEyIc5SoJkUPpgS8WS05ZP1rJPBOMwN8MdtF1iHkJgXtZsXACcsyXYxwH83JfHWEoERIfhtKHsEZTVTRWetJBZt2nErJNodpmA4FiFosCoohRFfeWm2M1fEilJuoFltuSrANqTzF7lf3xbQA6KgETo43XbRJjqhKYiT7K1AaBErZ0edpaMZsGa0fE6nzQ7Xbff4Kb6sc49OB3Vv6P/RPzfMh5xQUgIQBljP7wHYBU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIFCTCCAvGgAwIBAgIQPAU8uJjx4pBNTSpwhmocTjANBgkqhkiG9w0BAQ0FADATMREwDwYDVQQDEwhFdHJhY2tORzAeFw0yMDEyMjcxNjQ0MDRaFw0zOTEyMzEyMzU5NTlaMBMxETAPBgNVBAMTCEV0cmFja05HMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAvxZdZtOPg7tHC3GkYF3L0sCtVNw/w31HB5VveSjjmMVj/mSihzbfX+oTUYbS1xaKdmnPy+d9jnf1wDK7i1dCy95pq0FC1KN9W3b197KelS/ql6iUCbNhpvduWBy4WJOP9XLzrfvr9qF6Vzrvo1GqdSQgezLRmdr6yIjyO5xyaNpJ3938tHnoZSQFECFmHuiF+UExcmhSHkmLBk62p6EB9MyB6wVZ6MwaXT4Epvv3KV9uo/XdGjz26+0VDeZr+kVksvt7GJo10sFfRrHfTRxVE/4TkHXXnuDmagCwEtnxDWACAub/Ipe1SvIjKjJdfgUN3Wk/JUrzCVFreTortyjEAU8DABMnhiEYiwWB4ZK6Vb33X3RJdfYtownkg1doy+tY5an+rkKD/x9tKy0pNB+HZkmXlz+53zxmWUoJit3HL4p3IfFR/6zyUCA838IzBVhuunOEyIc5SoJkUPpgS8WS05ZP1rJPBOMwN8MdtF1iHkJgXtZsXACcsyXYxwH83JfHWEoERIfhtKHsEZTVTRWetJBZt2nErJNodpmA4FiFosCoohRFfeWm2M1fEilJuoFltuSrANqTzF7lf3xbQA6KgETo43XbRJjqhKYiT7K1AaBErZ0edpaMZsGa0fE6nzQ7Xbff4Kb6sc49OB3Vv6P/RPzfMh5xQUgIQBljP7wHYBUCAwEAAaNZMFcwDwYDVR0TAQH/BAUwAwEB/zBEBgNVHQEEPTA7gBDxXxHbuDXZpdd7m/QChJrEoRUwEzERMA8GA1UEAxMIRXRyYWNrTkeCEDwFPLiY8eKQTU0qcIZqHE4wDQYJKoZIhvcNAQENBQADggIBADPxrBFpRjSELa8GHx4k2LHLqwxRjQWOvmd8q2cmd+DQ6L4Y1v+6z2Hddsg8S61sfjh/x/IAh4EzYZ3a/2YDHT9cT5Rbcs7pafzC6OpyMWkBH2shjB2NNl44ypYT0qMZVBICvbgEHgYfj9s+gd3QYYGiN4YvX8e32j3Z8ctseVC/cPjZNeJxC18uDEO59AMTCmCEyVeZ6h5xXOjDy/KdZYJVRAfOaKqrh3eYCZ0R51G1+mDBGmcFUVX8Kn2Q2HkbiTzE0E+V3u5MizbUAySM+RxNaLhuQuPYDWlOG8iPTB/WxuTqSYtDI6Do9bfpWDsGkFPCaGmkUftTYM5PgQ1PfX6klbjTC/gGFvs44hkl02RS8m2+QDwb2HZEvLGjwaRG0jeBJ3KTuxQIvMygY3mlH5++1rR248dX7XXn0IzFHyX5DC72bu4u1IesiKSoX9OQkJNhVi94u/VvEt3B7toRbCHIN1jhQfL89ZJi2YQqHWlkyL4N9wGDX2LXeo7rh7vGs+pPiP70qJkOPrh7h9bUGhBM/yZeYZBLuAHtKQbdmQ6G4zgVRTbzfdfKcONGVCsZN+SSQHj5Qkv9Ys0OgODcDVq2bRiBW/viTtjKCLmitPNN7ecICpjdAutZClmUHG8pZYeTdQsx63mZx6AS3KyiuPzwEvfJVWX3MmhUqWduXIKW</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
