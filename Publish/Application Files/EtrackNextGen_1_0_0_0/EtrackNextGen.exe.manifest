@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="EtrackNextGen.exe" version="1.0.0.0" publicKeyToken="9a0e22c644339009" language="en-US" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="EtrackLogoIcon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="EtrackNextGen" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="EtrackNextGen.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EtrackNextGen.exe" size="759224">
+      <assemblyIdentity name="EtrackNextGen" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>yXNQl+9OvVa/lGDBIW/h4DQYzsjjBBhyiXdomQjikWg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="EtrackLogoIcon.ico" size="136486">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Rge6NqSeIaoh+lqDpt5iSA2J0oqL39cctl5hMTgYZGM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="EtrackLogoPng.png" size="120165">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2MHhe6eiNHnSLjGurvhyztW7eI5ZjXVDVTpr8+gx1SA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="EtrackNextGen.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Refresh.png" size="15666">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vtQ47c3cT+JYgPBGpBAXFO6xhBHag9MgnN31IACcjKY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RemoveButton.png" size="23157">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0YOmQ6NA+HAEjsyTwxEbo9xKVJRK76W5Iy7QqNZS2AE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=LOU-MAIN\maple" issuerKeyHash="a35c4f4a79313339aa0f70417b8048568b69c754" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>tgrAAb3RlIRsFS1n/qd+uTFOXNBXyhHanufLxcX+0JQ=</DigestValue></Reference></SignedInfo><SignatureValue>b/CW+joXnTAHRGbHFf9oiDapEPZS4iEeW3E+GkZNUZWlpbwmx9mhUtN/re57yWQHm918FbokhGcUhKR6XuBeeiRk2C6zX0Cc+rwx3SVkvDdKO+0zjHOH0d8gdntcBA9xhZjZJbAIqhh/ZMVMVYyheZpDZQKhtwAVaQNDuIakANw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tJ63ZnyZj8b5oRHoy4iw6aboKL0aq6GZedG4/IhYQqMr1Oof/aOBfXSA/hC6aWlatAcoiccpzvXLuVQkPUb6A2yUbCWZPMVWd+oT7acq0fNHU96mwLvAnQtEQ9whhXojf0dk6ow2T9rCHjup2MBgKY5FibxM7qRnj/tK8SKw2yk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="94d0fec5c5cbe79eda11ca57d05c4e31b97ea7fe672d156c8494d1bd01c00ab6" Description="" Url=""><as:assemblyIdentity name="EtrackNextGen.exe" version="1.0.0.0" publicKeyToken="9a0e22c644339009" language="en-US" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LOU-MAIN\maple</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>EGAiJSRwnq2pa0krN/agvKMT4m6SM+xsQNIBd6hTLmQ=</DigestValue></Reference></SignedInfo><SignatureValue>EDBKDf1YrxmsMY/29GVbwbGox79CZP12ynh+0d1Q+KKcqKvzCUhcu6N5jB+uFzY4DQ1Uwtp6lBPKQ/xYGFei95SpliDAK99VnTl5cc9vvp4r7ZwpTOAINQVwCe8Vwc5WRmiL6mvBbHZn4R4YtBWiSB1mF4mwVs2/NIC6syERBPE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tJ63ZnyZj8b5oRHoy4iw6aboKL0aq6GZedG4/IhYQqMr1Oof/aOBfXSA/hC6aWlatAcoiccpzvXLuVQkPUb6A2yUbCWZPMVWd+oT7acq0fNHU96mwLvAnQtEQ9whhXojf0dk6ow2T9rCHjup2MBgKY5FibxM7qRnj/tK8SKw2yk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQSDVgjfvYAKxMThU2kX1EhzANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwATABPAFUALQBNAEEASQBOAFwAbQBhAHAAbABlMB4XDTIwMTAyNzA0MjcyOFoXDTIxMTAyNzEwMjcyOFowJzElMCMGA1UEAx4cAEwATwBVAC0ATQBBAEkATgBcAG0AYQBwAGwAZTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAtJ63ZnyZj8b5oRHoy4iw6aboKL0aq6GZedG4/IhYQqMr1Oof/aOBfXSA/hC6aWlatAcoiccpzvXLuVQkPUb6A2yUbCWZPMVWd+oT7acq0fNHU96mwLvAnQtEQ9whhXojf0dk6ow2T9rCHjup2MBgKY5FibxM7qRnj/tK8SKw2ykCAwEAATANBgkqhkiG9w0BAQsFAAOBgQB/lb6imrsm8PVHguoHEZD2jM5dDdoruZxrg2uYRTyvNJlBgOse/pzZXmEoCwewlPFihqR2rqnoG7hskJOgw9HlclNn5PVrlN96RaEjCiws8wUCUpeHuIzd6ZfQEoYyfyw6lHj3A5owmFn81tW5rNbsjYjbpsSfhJojxxgq1s39Vw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
